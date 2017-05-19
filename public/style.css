@@ -6,14 +6,18 @@
 
 body {
   font: 13px Helvetica, Arial;
+  background-color: #36393e;
 }
 
 form {
-  background: #000;
+  background: #36393e;
   padding: 3px;
-  position: fixed;
-  bottom: 0;
+  position: relative;
   width: 100%;
+  vertical-align: baseline;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
 }
 
 form input {
@@ -38,12 +42,36 @@ form button {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  flex-direction: column;
 }
 
-#messages li {
-  padding: 5px 10px;
+.message-group {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: hsla(0, 0%, 100%, .04);
+  color: #FFF;
+  margin-left: 20px;
+  margin-right: 6px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
 }
 
+.comment{
+  margin-right: 20px;
+}
+
+/*
 #messages li:nth-child(odd) {
   background: #eee;
 }
+*/
