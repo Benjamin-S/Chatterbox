@@ -7,11 +7,15 @@
 </head>
 
 <body>
-  <div id="messages">
+  <div class="app">
+    <div class="message-container">
+    <div class="messages">
+    </div>
+    <form>
+      <input class="inputMessage" autocomplete="off" />
+    </form>
   </div>
-  <form>
-  <input class="inputMessage" autocomplete="off" />
-</form>
+</div>
   <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
   <script src="/socket.io/socket.io.js"></script>
   <script src="/main.js"></script>

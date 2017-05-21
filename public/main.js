@@ -34,7 +34,7 @@ $(function () {
 
 
   socket.on('chat message', function(msg){
-    $('#messages').append($('<div class="message-group">').append($('<div class="comment">').text(msg)));
+    $('.messages').append($('<div class="message-group">').append($('<div class="comment">').text(msg)));
   });
 
 
