@@ -9,13 +9,18 @@
 <body>
   <div class="app">
     <div class="message-container">
-    <div class="messages">
+      <div class="messages">
+      </div>
+      <form>
+        <div class="channel-textarea">
+          <div class="channel-textarea-inner">
+            <!--<input class="inputMessage" autocomplete="off" /> -->
+            <textarea rows="1" placeholder="Message #general" style="height: auto; overflow: hidden;"></textarea>
+          </div>
+        </div>
+      </form>
     </div>
-    <form>
-      <input class="inputMessage" autocomplete="off" />
-    </form>
   </div>
-</div>
   <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
   <script src="/socket.io/socket.io.js"></script>
   <script src="/main.js"></script>

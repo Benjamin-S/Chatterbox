@@ -22,7 +22,7 @@ form {
 form input {
   border: 0;
   padding: 10px;
-  width: 90%;
+  width: 100%;
   margin-right: .5%;
   padding: 12px 10px;
   border-radius: 3px;
@@ -63,6 +63,36 @@ form input {
 .comment{
   margin-right: 20px;
 
+}
+
+.channel-textarea {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  flex: 1;
+}
+
+.channel-textarea-inner {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.channel-textarea-inner textarea {
+  background-color: rgba(0, 0, 0, 0);
+  display: block;
+  flex-direction: column;
+  margin-right: 45px;
+  height: 18px;
+  line-height: 18px;
+  width: 100%;
+  border-width: 0px;
+  resize: none;
+  outline-width: 0px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .app {
