@@ -47,7 +47,7 @@ $(function() {
   }
 
   socket.on('chat message', function(username, msg) {
-    $('.messages').append($('<div class="message-group">').append($('<div class="comment">').text(username + ': ' + msg)));
+    $('.messages').append($('<div class="message-group">').append($(`<div class="user">${username}<div class="comment">${msg}</div></div>`)));
   });
 
 });
