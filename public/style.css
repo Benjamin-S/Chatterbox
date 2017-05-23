@@ -93,6 +93,9 @@ form input {
   resize: none;
   outline-width: 0px;
   color: rgba(255, 255, 255, 0.7);
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+
 }
 
 .app {
